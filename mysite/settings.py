@@ -90,16 +90,28 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 #     }
 # }
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'todo-db',
+#         'USER': 'postgres',
+#         'PASSWORD': 'kunal123',
+#         'HOST': 'postgresql',
+#         'PORT': '5432',
+#     }
+# }
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'todo-db',
-        'USER': 'postgres',
+        'USER': 'root',
         'PASSWORD': 'kunal123',
-        'HOST': 'postgresql',
-        'PORT': '5432',
+        'HOST': 'mysql',
+        'PORT': '3306',
     }
 }
+
 # [END dbconfig]
 
 # Internationalization
